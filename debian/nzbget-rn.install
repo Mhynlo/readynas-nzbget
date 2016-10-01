@@ -1,0 +1,6 @@
+#!/usr/bin/dh-exec
+rn-files/* apps/nzbget/
+rn-files/rn-nzbget.conf apps/nzbget/nzbget.conf
+nzbget/nzbget apps/nzbget/bin/
+nzbget/scripts/* apps/nzbget/scripts/
+nzbget/webui/* apps/nzbget/webui/

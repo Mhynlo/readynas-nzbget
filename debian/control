@@ -1,0 +1,15 @@
+Source: nzbget-rn
+Section: contrib
+Priority: extra
+Maintainer: Mhynlo <mhynlo@mhynlo.io>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.6
+Homepage: http://nzbget.net
+
+Package: nzbget-rn
+Architecture: amd64
+Depends: libjs-elycharts (>= 2.1.5), libjs-jquery (>= 1.7.2), libjs-raphael (>= 2.1.0), libjs-twitter-bootstrap (>= 2.0.2), libc6 (>= 2.14), libgcc1 (>= 1:4.1.1), libgnutls-deb0-28 (>= 3.3.0), libncurses5 (>= 5.5-5~), libpar2-1, libsigc++-2.0-0c2a (>= 2.2.0), libstdc++6 (>= 4.9), libtinfo5, libxml2 (>= 2.7.4), zlib1g (>= 1:1.2.0)
+Recommends: python
+Suggests: par2
+Description: NZBGet
+ The most efficient usenet downloader.

@@ -1,0 +1,9 @@
+apps/nzbget/bin
+apps/nzbget/dst
+apps/nzbget/inter
+apps/nzbget/nzb
+apps/nzbget/queue
+apps/nzbget/tmp
+apps/nzbget/scripts
+apps/nzbget/webui
+apps/nzbget/config
